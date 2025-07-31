@@ -1,4 +1,3 @@
-import { useState } from 'react' 
 import './App.css'
 import Nav from './components/nav'
 import Hero from './components/Hero'
@@ -14,7 +13,6 @@ import FreeTrial from './components/FreeTrial'
 import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
    < div className= 'bg-blue-500'>
